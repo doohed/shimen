@@ -1,10 +1,13 @@
 # shimen
 
-**紙面** (*shimen*, "the printed page") is a terminal web browser that renders pages as readable, Markdown-style text with pixel-art images.
+**紙面** (*shimen*, "printed page") is a terminal web browser that renders pages as readable, Markdown-style text with pixel-art images.
 
 ```sh
-shimen bojorquez.dev
+shimen <url>
 ```
+
+<img width="1000" height="738" alt="shimen" src="https://github.com/user-attachments/assets/65f3bfcd-1ac8-40cc-81bb-d01eec4b15c1" />
+
 
 ## Features
 
@@ -55,6 +58,8 @@ shimen example.com > page.md
 | `--full` | Render the whole page, not only the main content |
 
 ## Keys
+
+<img width="1118" height="842" alt="Screenshot 2026-11-07 at 3 22 21 a m" src="https://github.com/user-attachments/assets/ff361b74-1dbc-4d0a-aca1-045b0443d545" />
 
 | Key | Action |
 |---|---|
