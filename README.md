@@ -23,7 +23,7 @@ shimen <url>
 Requires Rust 1.88 or newer.
 
 ```sh
-git clone <repository-url> shimen
+git clone https://github.com/doohed/shimen.git
 cd shimen
 cargo install --path .
 ```
