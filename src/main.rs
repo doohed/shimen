@@ -22,7 +22,7 @@ use pixels::ColorDepth;
 /// In a terminal, opens an interactive browser (press ? for keys).
 /// When piped, prints Markdown instead (e.g. `shimen example.com > page.md`).
 #[derive(Parser)]
-#[command(version)]
+#[command(version, before_help = concat!("紙面 · shimen v", env!("CARGO_PKG_VERSION")))]
 struct Args {
     /// Page to read (the https:// is optional)
     url: String,
