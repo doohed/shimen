@@ -17,7 +17,7 @@ use document::ParseOptions;
 use page::Opened;
 use pixels::ColorDepth;
 
-/// 紙面 — read web pages in the terminal, like Markdown, with pixel-art images.
+/// Read web pages in the terminal, like Markdown, with pixel-art images.
 ///
 /// In a terminal, opens an interactive browser (press ? for keys).
 /// When piped, prints Markdown instead (e.g. `shimen example.com > page.md`).
